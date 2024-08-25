@@ -186,7 +186,7 @@ export default function Wizard(props) {
         rotation={[0, 0.224, 0]}
         scale={0.832}
       />
-      {/* <mesh
+      <mesh
         castShadow
         receiveShadow
         geometry={nodes.Evil_HatpPlane1_Evil_HatsolidShader_0.geometry}
@@ -194,7 +194,7 @@ export default function Wizard(props) {
         position={[-1.057, 0, 0]}
         rotation={[0, 0.224, 0]}
         scale={0.832}
-      /> */}
+      />
     </group>
   );
 }
