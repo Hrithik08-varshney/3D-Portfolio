@@ -31,11 +31,63 @@ const AboutDetails = () => {
             Unit Test cases.
           </p>
         </ItemLayout>
-        <ItemLayout className="col-span-4">
-          <div>25+ Clients</div>
+        <ItemLayout className="col-span-4 text-accent">
+          <p className="font-semibold w-full text-left text-5xl">
+            7{" "}
+            <sub className="font-semibold text-base">
+              Projects Delivered with Current Company
+            </sub>
+          </p>
         </ItemLayout>
-        <ItemLayout className="col-span-4">
-          <div>2+ Years of Experience</div>
+        <ItemLayout className="col-span-4 text-accent">
+          <p className="font-semibold w-full text-left text-5xl">
+            2+{" "}
+            <sub className="font-semibold text-base">Years of Experience</sub>
+          </p>
+        </ItemLayout>
+
+        <ItemLayout className="col-span-4 !p-0">
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hrithik08-Varshney&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FEFE5B&text_bold=false"
+            alt="HVGithub"
+            loading="lazy"
+          />
+        </ItemLayout>
+
+        <ItemLayout className="col-span-8 !p-0">
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-stats.vercel.app/api?username=Hrithik08-Varshney&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FEFE5B&text_bold=false"
+            alt="HVGithub"
+            loading="lazy"
+          />
+        </ItemLayout>
+
+        <ItemLayout className="col-span-full">
+          <img
+            className="w-full h-auto"
+            src="https://skillicons.dev/icons?i=react,js,nodejs,mongodb,express,nextjs,html,css,c,cpp,redux,tailwind,ts,styledcomponents,sass,materialui,appwrite,bootstrap,bitbucket,firebase,git,github,graphql,mysql,netlify,ps,postman,vscode,threejs"
+            alt="HVGithub"
+            loading="lazy"
+          />
+        </ItemLayout>
+        <ItemLayout className="col-span-6 !p-0">
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-streak-stats.herokuapp.com?user=Hrithik08-Varshney&theme=dark&hide_border=true"
+            alt="HVGithub"
+            loading="lazy"
+          />
+        </ItemLayout>
+
+        <ItemLayout className="col-span-6 !p-0">
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-stats.vercel.app/api/pin/?username=Hrithik08-Varshney&repo=MOVIX&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FEFE5B&text_bold=false"
+            alt="HVGithub"
+            loading="lazy"
+          />
         </ItemLayout>
       </div>
     </section>
@@ -43,3 +95,4 @@ const AboutDetails = () => {
 };
 
 export default AboutDetails;
+
