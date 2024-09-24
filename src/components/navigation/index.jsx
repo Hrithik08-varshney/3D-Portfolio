@@ -48,8 +48,8 @@ const Navigation = () => {
                         key={btn.label}
                         x={0}
                         y={0}
-                        {...btn}
                         labelDirection="left"
+                        {...btn}
                       />
                     );
                   }
