@@ -9,12 +9,12 @@ export default function Contact() {
         alt="background-image"
         className="-z-50 fixed top-0 left-0 w-full h-full object-cover opacity-25"
       />
-      <article className="relative w-full flex flex-col items-center justify-center space-y-8">
-        <div className="flex flex-col items-center justify-center space-y-6 w-full">
+      <article className="relative w-full flex flex-col items-center justify-center py-8 sm:py-0 space-y-8">
+        <div className="flex flex-col items-center justify-center space-y-6 w-full sm:w-3/4">
           <h1 className="text-accent font-psemibold text-center text-4xl capitalize">
             Looking to hire a skilled software developer?
           </h1>
-          <p className="text-center font-light">
+          <p className="text-center font-light text-sm xs:text-base">
             Let’s create something extraordinary together! With a passion for
             developing efficient, scalable solutions and a deep understanding of
             the latest technologies, I’m ready to tackle your project’s unique
@@ -25,7 +25,7 @@ export default function Contact() {
             contribute to your success. I look forward to joining your team!
           </p>
         </div>
-        <Form/>
+        <Form />
       </article>
     </>
   );
