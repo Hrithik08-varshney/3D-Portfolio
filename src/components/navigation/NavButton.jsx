@@ -5,13 +5,21 @@ import {
   NotebookTextIcon,
   Palette,
   Phone,
-  Twitter,
+  Code ,
   User,
 } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import ResponsiveComponent from "../ResponsiveComponent";
 import clsx from "clsx";
+import { motion } from "framer-motion";
+
+const item = {
+  hidden: { scale: 0 },
+  show: { scale: 1 },
+};
+
+const NavLink = motion(Link);
 
 const getIcon = (icon) => {
   switch (icon) {
@@ -27,8 +35,8 @@ const getIcon = (icon) => {
       return <Github className="w-full h-auto" strokeWidth={1.5} />;
     case "linkedin":
       return <Linkedin className="w-full h-auto" strokeWidth={1.5} />;
-    case "twitter":
-      return <Twitter className="w-full h-auto" strokeWidth={1.5} />;
+    case "code":
+      return <Code className="w-full h-auto" strokeWidth={1.5} />;
     case "resume":
       return <NotebookTextIcon className="w-full h-auto" strokeWidth={1.5} />;
     default:
@@ -55,7 +63,8 @@ const NavButton = ({
               transform: `translate(${x},${y})`,
             }}
           >
-            <Link
+            <NavLink
+              variants={item}
               href={link}
               target={newTab ? "_blank" : "_self"}
               className="text-foreground rounded-full flex items-center justify-center custom-bg
@@ -74,7 +83,7 @@ const NavButton = ({
                   {label}
                 </span>
               </span>
-            </Link>
+            </NavLink>
           </div>
         ) : (
           <div
@@ -83,7 +92,8 @@ const NavButton = ({
             //   transform: `translate(${x},${y})`,
             // }}
           >
-            <Link
+            <NavLink
+              variants={item}
               href={link}
               target={newTab ? "_blank" : "_self"}
               className="text-foreground rounded-full flex items-center justify-center custom-bg"
@@ -102,7 +112,7 @@ const NavButton = ({
                   {label}
                 </span>
               </span>
-            </Link>
+            </NavLink>
           </div>
         );
       }}

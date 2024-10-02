@@ -4,6 +4,17 @@ import React from "react";
 import NavButton from "./NavButton";
 import useScreenSize from "../hooks/useScreenSize";
 import ResponsiveComponent from "../ResponsiveComponent";
+import { motion } from "framer-motion";
+
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.3,
+    },
+  },
+};
 
 const Navigation = () => {
   const angleIncrement = 360 / BtnList.length; //divided the circle by the total length of the list
@@ -18,7 +29,12 @@ const Navigation = () => {
       <ResponsiveComponent>
         {({ size }) => {
           return size && size >= 480 ? (
-            <div className="w-max flex items-center justify-center relative animate-spin-slow hover:pause group">
+            <motion.div
+              variants={container}
+              initial="hidden"
+              animate="show"
+              className="w-max flex items-center justify-center relative animate-spin-slow hover:pause group"
+            >
               {BtnList.map((btn, index) => {
                 const angleRadian = (index * angleIncrement * Math.PI) / 180; //converting the angle into radian
                 const radius = isLarge
@@ -32,15 +48,25 @@ const Navigation = () => {
 
                 return <NavButton key={btn.label} x={x} y={y} {...btn} />;
               })}
-            </div>
+            </motion.div>
           ) : (
             <>
-              <div className=" w-full xs:w-max gap-[10px] px-2.5 xs:p-0 flex flex-col items-start xs:items-center justify-center relative group">
+              <motion.div
+                variants={container}
+                initial="hidden"
+                animate="show"
+                className=" w-full xs:w-max gap-[10px] px-2.5 xs:p-0 flex flex-col items-start xs:items-center justify-center relative group"
+              >
                 {BtnList.slice(0, BtnList.length / 2).map((btn, index) => {
                   return <NavButton key={btn.label} x={0} y={0} {...btn} />;
                 })}
-              </div>
-              <div className="w-full xs:w-max px-2.5 gap-[10px] xs:p-0 flex flex-col items-end xs:items-center justify-center relative group">
+              </motion.div>
+              <motion.div
+                variants={container}
+                initial="hidden"
+                animate="show"
+                className="w-full xs:w-max px-2.5 gap-[10px] xs:p-0 flex flex-col items-end xs:items-center justify-center relative group"
+              >
                 {BtnList.slice(BtnList.length / 2, BtnList.length).map(
                   (btn, index) => {
                     return (
@@ -54,7 +80,7 @@ const Navigation = () => {
                     );
                   }
                 )}
-              </div>
+              </motion.div>
             </>
           );
         }}
@@ -64,6 +90,5 @@ const Navigation = () => {
 };
 
 export default Navigation;
-
 
 //3:03:36
