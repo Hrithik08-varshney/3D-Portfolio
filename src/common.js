@@ -13,6 +13,7 @@ import { TbBrandSocketIo } from "react-icons/tb";
 import { IoLogoFirebase } from "react-icons/io5";
 import { BsFiletypeScss } from "react-icons/bs";
 import { TbSvg } from "react-icons/tb";
+import { projectsData } from "./app/data";
 
 export const getReactIcons = (techArr) => {
   return techArr.map((item, indx) => {
@@ -48,4 +49,12 @@ export const getReactIcons = (techArr) => {
       return <TbSvg key={item + indx} />;
     }
   });
+};
+
+export const getCurrentProjectData = (projectName) => {
+  for (let i = 0; i < projectsData.length; i++) {
+    if (projectName === projectsData[i].urlName) {
+      return projectsData[i];
+    }
+  }
 };
