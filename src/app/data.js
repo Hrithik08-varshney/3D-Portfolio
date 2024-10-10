@@ -129,22 +129,22 @@ export const projectsData = [
     technology: ["HTML", "CSS", "Js", "SVG"],
     gitLink: "https://github.com/Hrithik08-varshney/StopWatch",
   },
-  {
-    id: 15,
-    name: "Review Carousel",
-    urlName: "Review-Carousel",
-    description: "Get latest reviews here",
-    technology: ["HTML", "CSS", "Js"],
-    gitLink: "https://github.com/Hrithik08-varshney/Review-Carousel",
-  },
-  {
-    id: 16,
-    name: "Websites",
-    urlName: "Websites",
-    description: "Get Different types of website here",
-    technology: ["HTML", "CSS", "Js"],
-    gitLink: "https://github.com/Hrithik08-varshney/Different-Websites",
-  },
+  // {
+  //   id: 15,
+  //   name: "Review Carousel",
+  //   urlName: "Review-Carousel",
+  //   description: "Get latest reviews here",
+  //   technology: ["HTML", "CSS", "Js"],
+  //   gitLink: "https://github.com/Hrithik08-varshney/Review-Carousel",
+  // },
+  // {
+  //   id: 16,
+  //   name: "Websites",
+  //   urlName: "Websites",
+  //   description: "Get Different types of website here",
+  //   technology: ["HTML", "CSS", "Js"],
+  //   gitLink: "https://github.com/Hrithik08-varshney/Different-Websites",
+  // },
 ];
 
 export const BtnList = [
