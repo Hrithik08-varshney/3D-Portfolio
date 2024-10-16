@@ -1,3 +1,14 @@
+import MovixImage from "../assets/Movix.png"
+import WeatherAppImage from "../assets/Weather.png"
+import MovixImage from "../assets/Movix.png"
+import MovixImage from "../assets/Movix.png"
+import MovixImage from "../assets/Movix.png"
+import MovixImage from "../assets/Movix.png"
+import MovixImage from "../assets/Movix.png"
+import MovixImage from "../assets/Movix.png"
+import MovixImage from "../assets/Movix.png"
+
+
 export const projectsData = [
   {
     id: 1,
@@ -7,7 +18,8 @@ export const projectsData = [
     technology: ["React", "Js", "Vite", "Redux"],
     gitLink: "https://github.com/Hrithik08-varshney/MOVIX",
     desc: "Movix is your ultimate movie companion, developed in React to deliver a seamless and engaging experience for film enthusiasts. With an intuitive interface, users can easily browse and search a vast library of movies, accessing detailed information such as synopses, cast and crew details, release dates, ratings, and genres. The app offers personalized recommendations tailored to your viewing preferences, along with user reviews and ratings to help you make informed choices. You can create and manage a watchlist to keep track of films you want to see, all while enjoying a responsive design that works beautifully across devices. Stay updated on the latest releases and discover hidden gems with Movix, making your movie-watching experience truly unforgettable!",
-    deployLink: "https://neon-scone-84b4d4.netlify.app"
+    deployLink: "https://neon-scone-84b4d4.netlify.app",
+    image : MovixImage
   },
   {
     id: 2,
@@ -17,6 +29,7 @@ export const projectsData = [
     technology: ["React", "Js"],
     gitLink: "https://github.com/Hrithik08-varshney/React-Weather-App",
     deployLink: "https://thunderous-strudel-dccec7.netlify.app",
+    image : WeatherAppImage,
     desc:"WeatherApp is a dynamic and user-friendly application built with React that brings the latest weather updates right to your fingertips. By integrating with the OpenWeather API, the app provides real-time weather data for locations around the globe. With a clean and intuitive interface, users can easily search for cities to access current conditions, forecasts, humidity levels, wind speeds, and more."
   },
   {
@@ -26,6 +39,7 @@ export const projectsData = [
     description: "Tiktok similar Mobile App",
     technology: ["ReactNative", "Js", "Appwrite", "Expo", "Tailwind"],
     gitLink: "https://github.com/Hrithik08-varshney/React-Native-Learn-App",
+    image : "",
     desc:"Aora is a vibrant mobile application developed using React Native and powered by Expo, designed to create a dynamic and engaging social video-sharing experience similar to TikTok. With Aora, users can effortlessly create, edit, and share short videos, showcasing their creativity and connecting with a global community. To ensure seamless performance and user management, Aora’s backend is powered by Appwrite, providing robust features for authentication, database management, and real-time interactions."
   },
   {
@@ -35,6 +49,7 @@ export const projectsData = [
     description: "Built a group chat here",
     technology: ["NodeJs", "HTML", "CSS", "Js", "Socket"],
     gitLink: "https://github.com/Hrithik08-varshney/Chat-App",
+    image : WeatherAppImage,
     desc:"ChatApp is a sleek and responsive chat application designed for real-time communication, with a front end crafted using HTML, CSS, and JavaScript. The user-friendly interface allows users to easily send and receive messages, making it perfect for both casual conversations and group chats. On the back end, ChatApp leverages Node.js along with Socket.io to enable seamless real-time messaging. This powerful combination ensures instant message delivery and updates, keeping users connected without any lag. The app features user authentication, allowing users to create accounts and manage their profiles while enjoying a secure chatting environment."
   },
   {
