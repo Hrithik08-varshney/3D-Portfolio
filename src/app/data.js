@@ -21,6 +21,7 @@ export const projectsData = [
     desc: "Movix is your ultimate movie companion, developed in React to deliver a seamless and engaging experience for film enthusiasts. With an intuitive interface, users can easily browse and search a vast library of movies, accessing detailed information such as synopses, cast and crew details, release dates, ratings, and genres. The app offers personalized recommendations tailored to your viewing preferences, along with user reviews and ratings to help you make informed choices. You can create and manage a watchlist to keep track of films you want to see, all while enjoying a responsive design that works beautifully across devices. Stay updated on the latest releases and discover hidden gems with Movix, making your movie-watching experience truly unforgettable!",
     deployLink: "https://neon-scone-84b4d4.netlify.app",
     image: MovixImage,
+    fullDesc:"Built with React and Redux, this app offers a seamless experience for movie lovers. Explore detailed movie reviews, cast information, and trailers, all powered by API integration. Enjoy a responsive design, efficient state management, and real-time updates, making it your ultimate resource for discovering and discussing films!"
   },
   {
     id: 2,
@@ -31,6 +32,7 @@ export const projectsData = [
     gitLink: "https://github.com/Hrithik08-varshney/React-Weather-App",
     deployLink: "https://thunderous-strudel-dccec7.netlify.app",
     image: WeatherAppImage,
+    fullDesc:"Built with React and powered by API integration, this weather app provides real-time weather updates for any location. Users can effortlessly search for cities and view detailed forecasts, including temperature, humidity, and conditions. With a sleek and intuitive interface, stay informed about the weather wherever you go! Perfect for planning your day or your next adventure.",
     desc: "WeatherApp is a dynamic and user-friendly application built with React that brings the latest weather updates right to your fingertips. By integrating with the OpenWeather API, the app provides real-time weather data for locations around the globe. With a clean and intuitive interface, users can easily search for cities to access current conditions, forecasts, humidity levels, wind speeds, and more.",
   },
   {
@@ -40,6 +42,7 @@ export const projectsData = [
     description: "Tiktok similar Mobile App",
     technology: ["ReactNative", "Js", "Appwrite", "Expo", "Tailwind"],
     gitLink: "https://github.com/Hrithik08-varshney/React-Native-Learn-App",
+    fullDesc:"Built with React Native and Expo, this mobile app offers an engaging platform for sharing short-form videos. Users can create, edit, and share their content while exploring a wide array of trending videos. Although the follow feature isn't implemented yet, the app provides a vibrant community experience through likes and comments, ensuring users can interact and connect with engaging content. With a sleek interface and smooth performance, this app is perfect for expressing creativity and enjoying entertaining videos!",
     desc: "Aora is a vibrant mobile application developed using React Native and powered by Expo, designed to create a dynamic and engaging social video-sharing experience similar to TikTok. With Aora, users can effortlessly create, edit, and share short videos, showcasing their creativity and connecting with a global community. To ensure seamless performance and user management, Aora’s backend is powered by Appwrite, providing robust features for authentication, database management, and real-time interactions.",
   },
   {
@@ -50,6 +53,7 @@ export const projectsData = [
     technology: ["NodeJs", "HTML", "CSS", "Js", "Socket"],
     gitLink: "https://github.com/Hrithik08-varshney/Chat-App",
     image: ChatAppImage,
+    fullDesc:"Developed using Node.js, HTML, CSS, JavaScript, and Socket.io, this chat app enables real-time messaging between users. The intuitive interface allows participants to join chat rooms, send messages, and receive updates instantly. With responsive design and seamless socket communication, users can engage in lively conversations and connect with friends effortlessly. Ideal for learning about web sockets and real-time applications, this app showcases the power of modern web technologies in creating interactive experiences!",
     desc: "ChatApp is a sleek and responsive chat application designed for real-time communication, with a front end crafted using HTML, CSS, and JavaScript. The user-friendly interface allows users to easily send and receive messages, making it perfect for both casual conversations and group chats. On the back end, ChatApp leverages Node.js along with Socket.io to enable seamless real-time messaging. This powerful combination ensures instant message delivery and updates, keeping users connected without any lag. The app features user authentication, allowing users to create accounts and manage their profiles while enjoying a secure chatting environment.",
   },
   {
