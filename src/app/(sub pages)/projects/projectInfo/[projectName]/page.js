@@ -11,14 +11,20 @@ const ProjectInfo = ({ params }) => {
     setProjectData(getCurrentProjectData(projectName));
   }, [projectName]);
   return (
-    <div>
-      <ItemLayout className="col-span-full lg:col-span-8 row-span-2 flex-col items-start">
-        {projectData.image ? (
-          <Image src={projectData.image} alt={projectData.name} />
+    <div className="flex">
+      <ItemLayout className="w-[600px] h-[400px]">
+        {projectData?.image ? (
+          <Image src={projectData?.image} alt={projectData.name} />
         ) : (
           <Image src={ImageNotFound} alt="imageNotFound" />
         )}
       </ItemLayout>
+      <div className="grid grid-cols-2 grid-rows-2 gap-1 custom-bg p-6 sm:p-8 rounded-xl">
+      <div className=" h-auto flex items-center justify-center custom-bg">GITHUB</div>
+      <div className=" h-auto flex items-center justify-center custom-bg">{projectData?.gitLink}</div>
+      <div className=" h-auto flex items-center justify-center custom-bg">DEMO</div>
+      <div className=" h-auto flex items-center justify-center custom-bg">{projectData?.deployLink}</div>
+      </div>
     </div>
   );
 };
