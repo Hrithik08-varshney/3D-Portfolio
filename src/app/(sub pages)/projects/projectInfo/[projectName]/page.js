@@ -11,19 +11,22 @@ const ProjectInfo = ({ params }) => {
     setProjectData(getCurrentProjectData(projectName));
   }, [projectName]);
   return (
-    <div className="flex">
-      <ItemLayout className="w-[600px] h-[400px]">
+    <div className="flex w-[100%]">
+    <div className="w-[50%]">
+
+      <ItemLayout>
         {projectData?.image ? (
           <Image src={projectData?.image} alt={projectData.name} />
         ) : (
           <Image src={ImageNotFound} alt="imageNotFound" />
         )}
       </ItemLayout>
-      <div className="grid grid-cols-2 grid-rows-2 gap-1 custom-bg p-6 sm:p-8 rounded-xl">
-      <div className=" h-auto flex items-center justify-center custom-bg">GITHUB</div>
-      <div className=" h-auto flex items-center justify-center custom-bg">{projectData?.gitLink}</div>
-      <div className=" h-auto flex items-center justify-center custom-bg">DEMO</div>
-      <div className=" h-auto flex items-center justify-center custom-bg">{projectData?.deployLink}</div>
+    </div>
+      <div className=" w-[60%] grid grid-cols-4 grid-rows-2 gap-4 p-6 sm:p-8">
+      <div className=" h-auto flex col-span-1 items-center justify-center custom-bg rounded-xl">GITHUB</div>
+      <div className=" h-auto flex col-span-3 items-center justify-center custom-bg rounded-xl cursor-pointer">{projectData?.gitLink}</div>
+      <div className=" h-auto flex col-span-1 items-center justify-center custom-bg rounded-xl">DEMO</div>
+      <div className=" h-auto flex col-span-3 items-center justify-center custom-bg rounded-xl cursor-pointer">{projectData?.deployLink}</div>
       </div>
     </div>
   );
