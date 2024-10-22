@@ -133,6 +133,7 @@ export const projectsData = [
     gitLink: "https://github.com/Hrithik08-varshney/Google-Keep-Clone",
     deployLink: "https://hrithik08-varshney.github.io/Google-Keep-Clone",
     image: GoogleKeepCloneImage,
+    fullDesc:"A Google Keep clone built with HTML, CSS, and JavaScript that allows users to create, edit, and delete notes. Notes are displayed in a grid layout with options for color-coding and archiving. JavaScript handles note management, with localStorage for data persistence, allowing users to keep their notes even after refreshing the page. CSS ensures a clean, responsive interface.",
     desc: "The Google Keep Clone is a web application designed to mimic the functionality of Google Keep, built using HTML, CSS, and JavaScript. This intuitive note-taking app allows users to create, edit, and organize notes in a visually appealing and user-friendly interface. Leveraging JavaScript for interactive elements, users can drag and drop notes to reorder them, delete unwanted notes, and search through their collection quickly. The Google Keep Clone provides a seamless experience for those looking to capture ideas, manage tasks, and stay organized—all in one convenient application!",
   },
   {
@@ -144,6 +145,7 @@ export const projectsData = [
     gitLink: "https://github.com/Hrithik08-varshney/Digital-Clock",
     deployLink: "https://hrithik08-varshney.github.io/Digital-Clock",
     image: DigitalClockImage,
+    fullDesc:"A digital clock built with HTML, CSS, and JavaScript that displays the current time (hours, minutes, seconds) and updates in real-time. JavaScript uses the Date object to fetch the current time and updates the display every second using setInterval(). CSS styles the clock with custom fonts, colors, and layouts, ensuring a clean and responsive design",
     desc: "The Digital Clock is a simple yet elegant web application built with HTML, CSS, and JavaScript that displays the current time in a user-friendly format. This project features a clean and modern design, making it a stylish addition to any webpage. Using HTML for structure, CSS for styling, and JavaScript for functionality, the clock updates in real time, showcasing hours, minutes, and seconds. The design is fully responsive, ensuring that it looks great on both desktop and mobile devices.",
   },
   {
@@ -155,6 +157,7 @@ export const projectsData = [
     gitLink: "https://github.com/Hrithik08-varshney/Joke-Website",
     deployLink: "https://hrithik08-varshney.github.io/Joke-Website",
     image: BestJokesImage,
+    fullDesc:"A joke website built with HTML, CSS, and JavaScript that displays random jokes in English. Users can click a button to fetch a new joke, with JavaScript handling the API integration or random joke selection from a preloaded list. The layout is simple and user-friendly, with CSS providing an engaging, fun design, including typography, colors, and animations for better user experience.",
     desc: "The Joke Website is a fun and interactive web application built with HTML, CSS, and JavaScript, featuring API integration to deliver a continuous stream of jokes. Designed for users looking to lighten their day, this site offers a simple and engaging interface that allows visitors to fetch and display jokes at the click of a button. Using HTML for the structure, CSS for a playful design, and JavaScript to handle API requests, the app connects to a joke API to retrieve random jokes. Users can easily navigate the site, with a button to generate new jokes and a section to display the latest laugh.",
   },
   {
@@ -166,6 +169,7 @@ export const projectsData = [
     gitLink: "https://github.com/Hrithik08-varshney/StopWatch",
     deployLink: "https://hrithik08-varshney.github.io/StopWatch/",
     image: StopWatchImage,
+    fullDesc:"A stopwatch built with HTML, CSS, and JavaScript that allows users to start, stop, and reset time. JavaScript handles the timing functionality using setInterval() to update the time every second or millisecond. It displays hours, minutes, and seconds, and includes buttons for controlling the stopwatch. CSS is used to style the stopwatch interface with a clean and user-friendly layout.",
     desc: "The Stopwatch is a sleek and functional web application built with HTML, CSS, JavaScript, and SVG graphics. This project provides users with a simple interface to track time easily, making it perfect for timing workouts, cooking, or any activity where precise timing is essential. Using HTML for structure, the stopwatch features clear, legible displays for minutes, seconds, and milliseconds. CSS styles the application with a modern and clean design, while SVG graphics enhance the visual appeal with smooth, scalable icons and buttons.",
   },
   {
@@ -175,6 +179,7 @@ export const projectsData = [
     description: "Get latest reviews here",
     technology: ["HTML", "CSS", "Js"],
     gitLink: "https://github.com/Hrithik08-varshney/Review-Carousel",
+    fullDesc:"A review carousel built with HTML, CSS, and JavaScript that showcases user reviews or testimonials in a sliding format. Users can navigate through reviews using navigation arrows or pagination dots. JavaScript manages the carousel functionality, including automatic sliding and manual controls. CSS styles the carousel for a visually appealing layout, ensuring responsiveness and smooth transitions between reviews.",
     desc: "The Review Carousel is an interactive web component designed to showcase customer testimonials and reviews in a visually appealing format. Built using HTML, CSS, and JavaScript, this carousel allows users to effortlessly browse through multiple reviews with a smooth sliding effect. Using HTML for structure, each review is displayed with the reviewer’s name, photo, and a short testimonial, creating a personal touch. CSS styles the carousel with a modern design, including animations and transitions that enhance the user experience.",
   },
   {
