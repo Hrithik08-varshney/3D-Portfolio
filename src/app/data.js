@@ -64,6 +64,7 @@ export const projectsData = [
     technology: ["React", "Js", "Vite", "Redux"],
     gitLink: "https://github.com/Hrithik08-varshney/fakeshop",
     deployLink: "https://poetic-faloodeh-2e7105.netlify.app",
+    fullDesc:"A shopping app clone built with React and Redux that displays a product listing and product details. The app fetches product data, stores it in Redux state, and allows users to view product details by selecting an item from the list. It focuses on state management for product data and efficient rendering.",
     image: FakeShopImage,
     desc: "Shopping Clone is a feature-rich e-commerce application developed with React and powered by Redux for state management, designed to provide a seamless online shopping experience. This app mimics popular shopping platforms, allowing users to browse a wide array of products, add items to their cart, and make secure purchases with ease.",
   },
@@ -74,6 +75,7 @@ export const projectsData = [
     description: "Read your daily news here",
     technology: ["React", "Js", "Redux"],
     gitLink: "https://github.com/Hrithik08-varshney/Inshort-Clone",
+    fullDesc:"An Inshorts clone built with React that integrates with an API to fetch and display news headlines. The app presents brief news articles, with efficient state management for fetching, loading, and displaying content dynamically.",
     desc: "Short App Clone is a sleek application developed with React that showcases the power of API integration and infinite scrolling. This app allows users to seamlessly browse through a vast collection of content without interruptions, providing an engaging user experience. With smooth navigation and a clean interface, users can effortlessly explore items, while the infinite scrolling feature ensures that new content loads automatically as they reach the bottom of the page. Perfect for discovering endless information, Short App Clone delivers a modern and efficient browsing experience!",
   },
   {
@@ -84,6 +86,7 @@ export const projectsData = [
     technology: ["React", "Firebase"],
     gitLink: "https://github.com/Hrithik08-varshney/Todo-List",
     deployLink: "https://gorgeous-faun-46b6fc.netlify.app",
+    fullDesc:"A to-do list app built with React and Firebase. Users can create, update, and delete tasks, with real-time data syncing to Firebase. Tasks are stored in a Firestore database, and updates are reflected instantly across all devices. Firebase handles user authentication and data persistence.",
     desc: "The ToDo List App is a simple yet powerful productivity tool developed using React, with a robust backend powered by Firebase. This app allows users to easily create, manage, and track their tasks in an intuitive interface. With real-time synchronization provided by Firebase, users can access their to-do lists from any device, ensuring that updates are instantly reflected across all platforms. The app features functionalities like adding, editing, and deleting tasks, as well as marking items as complete. Users can also categorize tasks and set deadlines to stay organized.",
   },
   {
@@ -95,6 +98,7 @@ export const projectsData = [
     gitLink: "https://github.com/Hrithik08-varshney/React-Admin-Dashboard",
     deployLink: "https://incandescent-speculoos-77bd4d.netlify.app",
     image: AdminDashboardImage,
+    fullDesc:"A React admin dashboard that provides an interactive user interface for managing data. It includes features like data visualization (charts, tables), user management, and CRUD operations. State is managed with React hooks or Redux, and it can integrate with APIs for dynamic data updates. The layout is typically responsive, featuring navigation menus, widgets, and customizable components.",
     desc: "The Admin Dashboard is a powerful and customizable application developed using React and styled with SCSS, designed to provide an intuitive interface for managing various administrative tasks. With a modern and responsive design, this dashboard offers a seamless user experience across devices. Featuring a variety of pre-built components such as charts, tables, and forms, the dashboard allows administrators to easily monitor key metrics, manage users, and access detailed analytics. The use of SCSS ensures that the design is both flexible and maintainable, allowing for quick adjustments and enhancements.",
   },
   {
@@ -106,6 +110,7 @@ export const projectsData = [
     deployLink: "https://hrithik08-varshney.github.io/Typing-Test-Website/",
     gitLink: "https://github.com/Hrithik08-varshney/Typing-Test-Website",
     image: TypingTestWeb,
+    fullDesc:"A typing test website built with HTML, CSS, and JavaScript that measures typing speed and accuracy. It presents random text for users to type, tracks keystrokes, calculates words per minute (WPM), and displays results after completion. JavaScript handles timing, input validation, and score calculation, while CSS ensures a clean, responsive design."
   },
   {
     id: 10,
@@ -116,6 +121,7 @@ export const projectsData = [
     gitLink: "https://github.com/Hrithik08-varshney/Tic-Tac-Toe",
     deployLink: "https://hrithik08-varshney.github.io/Tic-Tac-Toe/",
     image: TicTacToeImage,
+    fullDesc:"A Tic Tac Toe game developed with HTML, CSS, and JavaScript. It features a 3x3 grid where two players (X and O) take turns. JavaScript handles game logic, including win conditions, tie checks, and resetting the board. CSS is used for styling the grid and animations, while the game dynamically updates the UI based on player moves.",
     desc: "The Tic Tac Toe game is a classic, interactive web application built with HTML, CSS, and JavaScript. This simple yet engaging game allows players to enjoy a fun challenge against a friend or the computer. With a clean and responsive design, the game features a 3x3 grid where players can take turns marking their spaces with X or O. The intuitive interface makes it easy to click on cells to make a move, and the game logic ensures that winning combinations are detected instantly.",
   },
   {
