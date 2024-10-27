@@ -20,7 +20,7 @@ const ProjectInfo = ({ params }) => {
             {projectData?.image ? (
               <Image src={projectData?.image} alt={projectData.name} />
             ) : (
-              <Image src={ImageNotFound} alt="imageNotFound" />
+              <Image src={ImageNotFound} alt="imageNotFound" className="h-[50vh] w-[70%]"/>
             )}
           </ItemLayout>
         </div>
@@ -31,23 +31,23 @@ const ProjectInfo = ({ params }) => {
           viewport={{ once: true }}
           className="sm:w-[100%] lg:w-[70%] grid grid-cols-4 grid-rows-2 gap-4 p-6 sm:p-8"
         >
-          <div className="h-[50px] text-xs sm:text-sm lg:h-auto flex col-span-1 items-center justify-center custom-bg rounded-xl">
+          <div className="p-[5px] h-[50px] text-[8px] sm:text-sm lg:h-auto flex col-span-1 items-center justify-center custom-bg rounded-xl">
             GITHUB
           </div>
           <Link
             href={projectData?.gitLink || ""}
             target={"_blank"}
-            className=" h-[50px] text-xs sm:text-sm lg:h-auto flex col-span-3 items-center justify-center custom-bg rounded-xl cursor-pointer"
+            className="p-[5px] break-all h-[50px] text-xs sm:text-sm lg:h-auto flex col-span-3 items-center justify-center custom-bg rounded-xl cursor-pointer transform hover:translate-y-1 transition-transform duration-300 ease-in-out"
           >
             {projectData?.gitLink}
           </Link>
-          <div className="h-[50px] text-xs  sm:text-sm lg:h-auto  flex col-span-1 items-center justify-center custom-bg rounded-xl">
+          <div className="p-[5px] h-[50px] text-[8px]  sm:text-sm lg:h-auto  flex col-span-1 items-center justify-center custom-bg rounded-xl">
             DEMO
           </div>
           <Link
             href={projectData?.deployLink || ""}
             target={"_blank"}
-            className=" h-[50px] text-xs sm:text-sm lg:h-auto flex col-span-3 items-center justify-center custom-bg rounded-xl cursor-pointer"
+            className="p-[5px] break-all h-[50px] text-xs sm:text-sm lg:h-auto flex col-span-3 items-center justify-center custom-bg rounded-xl cursor-pointer transform hover:translate-y-1 transition-transform duration-300 ease-in-out"
           >
             {projectData?.deployLink}
           </Link>
